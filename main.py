@@ -13,8 +13,9 @@ import os
 import sys
 
 MESSAGE = (
-    "Payment failed: your bank declined this. No money was taken. "
-    "Please try a different card."
+    "Payment failed. Your bank looked at the amount, looked at your "
+    "balance, and quietly closed the door. Nothing was charged \u2014 "
+    "try another card, or a smaller cart."
 )
 
 MAX_CHARS = 200
